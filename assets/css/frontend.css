@@ -1,0 +1,137 @@
+	.book-form-row {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 10px;
+	}
+
+	.book-form-group {
+		width: 100%;
+		flex-basis: 48%;
+	}
+
+	.book-form-group select, .book-form-group input {
+		width: 100%;
+	}
+
+	.book-form-row label {
+		display: inline-block;
+	}
+
+	#min_price,#max_price {
+		display: none;
+	}
+
+	.book-submit-btn {
+		background: none;
+	    border: 1px solid #000;
+	    color: #000;
+	    margin-top: 20px;
+	    text-align: center;
+	    text-decoration: none;
+    	display: block;
+	}
+
+	.price-range-block {
+	    margin:60px;
+	}
+
+.sliderText{
+    width:40%;
+    margin-bottom:30px;
+    border-bottom: 2px solid red;
+    padding: 10px 0 10px 0px;
+    font-weight:bold;
+}
+
+.ui-slider-horizontal {
+    height: .6em;
+}
+.ui-slider-horizontal {
+    margin-bottom: 15px;
+    width:40%;
+}
+.ui-widget-header {
+    background: #3FE331;
+}
+
+.price-range-search {
+    width:40.5%;
+    background-color: #f9f9f9;
+    border: 1px solid #6e6666;
+    min-width: 40%;
+    display: inline-block;
+    height: 32px;
+    border-radius: 5px;
+    float: left;
+    margin-bottom:20px;
+    font-size:16px;
+}
+.price-range-field{
+    width:20%;
+    min-width: 16%;
+    background-color:#f9f9f9;
+    border: 1px solid #6e6666;
+    color: black;
+    font-family: myFont;
+    font: normal 14px Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    height:26px;
+    padding:5px;
+}
+.search-results-block{
+    position: relative;
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+/*** price range **/
+
+/*.price-range-slider {
+	width:100%;
+  float:left;
+  padding:10px 20px;
+	.range-value {
+		margin:0;
+		input {
+			width:100%;
+			background:none;
+			color: #000;
+			font-size: 16px;
+			font-weight: initial;
+			box-shadow: none;
+			border: none;
+			margin: 20px 0 20px 0;
+		}
+	}
+
+	.range-bar {
+		border: none;
+		background: #000;
+		height: 3px;
+		width: 96%;
+		margin-left: 8px;
+
+		.ui-slider-range {
+			background:#06b9c0;
+		}
+
+		.ui-slider-handle {
+			border:none;
+			border-radius:25px;
+			background:#fff;
+			border:2px solid #06b9c0;
+			height:17px;
+			width:17px;
+			top: -0.52em;
+			cursor:pointer;
+		}
+		.ui-slider-handle + span {
+			background:#06b9c0;
+		}
+	}
+}*/
